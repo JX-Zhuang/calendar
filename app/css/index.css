@@ -1,0 +1,76 @@
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+th {
+    width: 30px;
+    height: 30px;
+    /*background-color: #*/
+}
+
+tr th:first-child,
+tr th:last-child,
+tr td:first-child,
+tr td:last-child {
+    color: rgb(255, 0, 0);
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    border-radius: 15px;
+    /*color:#333;*/
+    /*background-color: #ccc;*/
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    width: 50px;
+    height: 20px;
+    border-radius: 0;
+}
+
+.select-date * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.select-date option{
+    text-align: center;
+}
+.select-month{
+	width: 30px;
+}
+.calendar {
+    position: relative;
+    border: 8px solid #0a8ce8;
+    padding: 20px 20px 40px 20px;
+    width: 500px;
+}
+
+.calendar table {
+    width: 100%;
+}
+
+.calendar-tab {
+    margin-top: 20px;
+}
+
+.select-month {}
+
+.select-year {}
+
+.today {
+    background-color: pink;
+}
